@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Berat Nakip`,
     author: `Berat Nakip`,
-    description: `Personal blog.`,
+    description: `Personal blog about my works, thougts and about the technologies I am interested in. `,
     siteUrl: `https://beratnakip.com/`,
     social: {
       twitter: `brtnkp`,
