@@ -34,11 +34,10 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Istanbul
-               building useful things.
+              Personal blog about my works, thougts and about the technologies I am interested in. Written by <strong>{author}</strong> who lives and works in Istanbul.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Follow on Twitter
               </a>
             </p>
           </Container>
