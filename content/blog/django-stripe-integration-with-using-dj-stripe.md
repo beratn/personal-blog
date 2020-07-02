@@ -47,7 +47,7 @@ path("stripe/", include("djstripe.urls", namespace="djstripe"))
 
 #### Webhooks
 
-You need to add your webhook address to Stripe. Your webhook address should be like ***<https://domain.com/stripe/webhook>***You can find webhook endpoints ***Developers > Webhooks*** in Stripe Dashboard. After you create a webhook endpoint in Stripe dashboard, get your webook secret key which is starting with ***whsec_***
+You need to add your webhook address to Stripe. Your webhook address should be like ***<https://domain.com/stripe/webhook>***You can find webhook endpoints ***Developers > Webhooks*** in Stripe Dashboard. After you create a webhook endpoint in Stripe dashboard, get your webhook secret key which is starting with ***whsec_***
 
 ![Screenshot from https://dashboard.stripe.com/webhooks](https://cdn-images-1.medium.com/max/800/1*zqW9q-dNuP6_6Sjkuthnpw.png)
 
@@ -181,7 +181,7 @@ When customer click the button, they will see this page below
 P.S: If you use stripe test keys, page will see in test mode. You can test your checkout step with test card numbers.
 
 * Default U.S. card — `4242 4242 4242 4242`
-* Authenticate with [3D Secure](https://stripe.com/docs/payments/3d-secure) — `4000 0000 0000 322`
+* Authenticate with [3D Secure](https://stripe.com/docs/payments/3d-secure) — `4000 0000 0000 3220`
 
 ### Conclusion:
 
