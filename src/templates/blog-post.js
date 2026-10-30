@@ -19,18 +19,27 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <article>
+          <h1>{post.frontmatter.title}</h1>
+          <p
+            data-nutuk-skip
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
+          {/* Read-aloud player (nutuk.io): reads this article only, title first */}
+          <nutuk-player
+            data-token="wt_0d07d8d0adbb3c2a9b1acb9fcad8cce9"
+            data-selector="article"
+            style={{ display: `block`, marginBottom: rhythm(1) }}
+          />
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </article>
         <hr
           style={{
             marginBottom: rhythm(1),

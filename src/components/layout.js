@@ -69,10 +69,6 @@ class Layout extends React.Component {
           <header>{header}</header>
           <main>{children}</main>
         </div>
-        <nutuk-player
-          data-token="wt_0d07d8d0adbb3c2a9b1acb9fcad8cce9"
-          data-selector="#gatsby-focus-wrapper > div > div > main"
-        />
         <Footer>
           © {new Date().getFullYear()}, Built with
           {` `}
