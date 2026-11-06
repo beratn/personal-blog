@@ -34,8 +34,7 @@ class BlogPostTemplate extends React.Component {
           </p>
           {/* Read-aloud player (nutuk.io): reads this article only, title first */}
           <nutuk-player
-            data-token="wt_0d07d8d0adbb3c2a9b1acb9fcad8cce9"
-            data-env="test"
+            data-token="wt_007b2bcd5314e6ee8f05fa8785ea6da0"
             data-selector="article"
             style={{ display: `block`, marginBottom: rhythm(1) }}
           />
